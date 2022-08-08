@@ -1,0 +1,744 @@
+
+Battle Start Damage
+Division
+
+Fire Shell
+Deals fire damage to an enemy division at the start of the battle.
+
+Water Shell
+Deals water damage to an enemy division at the start of the battle.
+
+Ice Shell
+Deals ice damage to an enemy division at the start of the battle.
+
+Lightning Shell
+Deals lightning damage to an enemy division at the start of the battle.
+
+Poison Shell
+Deals poison damage to an enemy division at the start of the battle.
+
+Light Shell
+Deals light damage to an enemy division at the start of the battle.
+
+Dark Shell
+Deals dark damage to an enemy division at the start of the battle.
+3 Divisions
+
+M-Fire Shell
+Deals fire damage to 3 enemy divisions at the start of the battle.
+
+M-Water Shell
+Deals water damage to 3 enemy divisions at the start of the battle.
+
+M-Ice Shell
+Deals ice damage to 3 enemy divisions at the start of the battle.
+
+M-Lightning Shell
+Deals lightning damage to 3 enemy divisions at the start of the battle.
+
+M-Poison Shell
+Deals poison damage to 3 enemy divisions at the start of the battle.
+
+M-Light Shell
+Deals light damage to 3 enemy divisions at the start of the battle.
+
+M-Dark Shell
+Deals dark damage to 3 enemy divisions at the start of the battle.
+Continuous Damage
+Enemy
+
+Fire Blast
+Deals continuous fire damage to the targeted enemy.
+
+Water Blast
+Deals continuous water damage to the targeted enemy.
+
+Ice Blast
+Deals continuous ice damage to the targeted enemy.
+
+Lightning Blast
+Deals continuous lightning damage to the targeted enemy.
+
+Poison Blast
+Deals continuous poison damage to the targeted enemy.
+
+Light Blast
+Deals continuous light damage to the targeted enemy.
+
+Dark Blast
+Deals continuous dark damage to the targeted enemy.
+Division
+
+Fire Field
+Deals continuous fire damage to an enemy division.
+
+Water Field
+Deals continuous water damage to an enemy division.
+
+Ice Field
+Deals continuous ice damage to an enemy division.
+
+Lightning Field
+Deals continuous lightning damage to an enemy division.
+
+Poison Field
+Deals continuous poison damage to an enemy division.
+
+Light Field
+Deals continuous light damage to an enemy division.
+
+Dark Field
+Deals continuous dark damage to an enemy division.
+3 Divisions
+
+M-Fire Field
+Deals continuous fire damage to 3 enemy divisions.
+
+M-Water Field
+Deals continuous water damage to 3 enemy divisions.
+
+M-Ice Field
+Deals continuous ice damage to 3 enemy divisions.
+
+M-Lightning Field
+Deals continuous lightning damage to 3 enemy divisions.
+
+M-Poison Field
+Deals continuous poison damage to 3 enemy divisions.
+
+M-Light Field
+Deals continuous light damage to 3 enemy divisions.
+
+M-Dark Field
+Deals continuous dark damage to 3 enemy divisions.
+Start and Continuous Damage Protection
+Start Damage Protection
+
+Shelling Wall
+Non-Poison battle opening damage to this unit is reduced. (Max100)
+
+Shelling Barrier
+Non-Poison battle opening damage to this unit’s division is reduced. (Max100)
+
+Shelling Reflect
+Non-Poison battle opening damage to this unit is reflected.
+
+Shelling Absorb
+Non-Poison battle opening damage to this unit is absorbed.
+Continuous Damage Protection
+
+Spell Wall
+Non-Poison continuous damage to this unit is reduced. (Max100)
+
+Spell Barrier
+Non-Poison continuous damage to this unit’s division is reduced. (Max100)
+
+Spell Reflect
+Non-Poison continuous damage to this unit is reflected.
+
+Spell Absorb
+Non-Poison continuous damage to this unit is absorbed.
+Heal
+Self Heal
+Heals this unit at the end of each turn. No effect on Wraith units.
+
+Target Heal
+Heals the targeted ally if they are not Undead or Wraith type.
+
+Division Heal
+Heals non-Undead and non-Wraith allies in this unit’s division at the end of each turn.
+
+Equitable Heal
+Heals all non-Wraith allies at the end of each turn.
+
+Demon Medic
+Demon or Undead type allies recover HP at the end of each turn.
+
+Group Heal
+Heals all non-Wraith allies in 3 allied divisions at the end of each turn.
+
+Day Regen
+Heals this unit during the day. No effect on Wraith units.
+
+Night Regen
+Heals this unit during the night. No effect on Wraith units.
+
+Wraith Recovery
+Heals all Wraith units in this unit’s division.
+Abnormal Status and Debuff Attacks
+Rainbow Venom
+Inflicts poison, curse, stun, and all four stat debuffs.
+
+Poison Attack
+Poison the enemy for continuous poison damage. (Max50)
+
+Stun Attack
+Give stun points to the enemy. Two stun points paralyze them for a turn.
+
+Cursed Strike
+Curse the enemy and prevent healing.
+
+Charm Attack
+Charm an enemy and completely restrict its actions on that turn.
+
+Crack
+Charm a mechanical enemy and completely restrict its actions on that turn
+
+Seal Attack
+Stop the target’s end of turn effects for the rest of the battle.
+
+Cancelling Attack
+Prevents enemies from activating Boost/Command/Formation effects.
+
+Attack Debuff
+Each attack reduces the enemy’s Attack.
+
+Defense Debuff
+Each attack reduces the enemy’s Defense.
+
+Speed Debuff
+Each attack reduces the enemy’s Speed.
+
+Wisdom Debuff
+Each attack reduces the enemy’s Wisdom.
+
+Vampiric Attack
+Recovers 1% of current HP per level of this skill on hit.
+
+Absorb EXP
+Absorbs additional EXP as damage when attacking.
+
+Multi-Ailment
+Status ailment skills trigger on all targets.
+
+Counter Ailment
+Status ailment skills trigger during counterattacks.
+Abnormal Status Recovery
+Poison Cure
+Makes your division immune to poison.
+
+Curse Cure
+Makes your division immune to the curse.
+
+Stun Cure
+Makes your division immune to stun.
+
+Debuff Cure
+Makes your division immune to debuffs.
+
+Absolute Cure
+Makes your division immune to status ailments
+
+Resist Ailments
+Immune to all status ailments.
+
+Dauntless
+Immunity to Mental Attack, Seal Attack, and Charm Attack. Supplements loyalty increases.
+Buff
+Formation
+
+Attack Formation
+Increases Attack when this unit’s division has 4 or more units.
+
+Defense Formation
+If a user is not a Wraith, protect allies behind them. Increases Defense with 4 or more units is alive.
+
+Speed Formation
+Increases Speed when this unit’s division has 4 or more units.
+
+Wisdom Formation
+Increases Wisdom when this unit’s division has 4 or more units.
+
+We’re Cornered!
+Buff abilities when 4 or fewer units are in this unit’s division.
+Boost
+
+Man Boost
+Buff all Male allies aside from oneself.
+
+Woman Boost
+Buff all Female allies aside from oneself.
+
+Human Boost
+Buff all Human allies aside from oneself.
+
+Demon Boost
+Buff all Demon allies aside from oneself.
+
+Divine Boost
+Buff all Divine-type allies aside from oneself.
+
+Insect Boost
+Buff all Insect-type allies aside from oneself.
+
+Mechanical Boost
+Buff all Mechanical allies aside from oneself.
+
+Dragon Boost
+Buff all Dragon-type allies aside from oneself.
+
+Beast Boost
+Buff all Beast-type allies aside from oneself.
+
+Aqua Boost
+Buff all Aquatic allies aside from oneself.
+
+Flying Boost
+Buff all Flying-type allies aside from oneself.
+
+Ice Boost
+Buff all Ice-type allies aside from oneself.
+
+Fire Boost
+Buff all Fire-type allies aside from oneself.
+
+Lightning Boost
+Buff all Lightning-type allies aside from oneself.
+
+Nature Boost
+Buff all Nature-type allies aside from oneself.
+
+Poison Boost
+Buff all Poison-type allies aside from oneself.
+
+Undead Boost
+Buff all Undead allies aside from oneself.
+
+Wraith Boost
+Buff all Wraith allies aside from oneself.
+
+Knight Boost
+Buff all Knight-type allies aside from oneself.
+
+Night Boost
+Buff all Night-type allies aside from oneself.
+
+Supreme Boost
+Buff all Supreme-type allies aside from oneself.
+
+Squad Boost
+Buff all allies aside from oneself.
+Command
+
+Command Man
+Buff all Male units in this unit’s division by 1% per skill level.
+
+Command Woman
+Buff all Female units in this unit’s division by 1% per skill level.
+
+Command Human
+Buff all Human units in this unit’s division by 1% per skill level.
+
+Command Demon
+Buff all Demon units in this unit’s division by 1% per skill level.
+
+Command Divine
+Buff all Divine-type units in this unit’s division by 1% per skill level.
+
+Command Insect
+Buff all Insect-type units in this unit’s division by 1% per skill level.
+
+Command Mech
+Buff all Mechanical units in this unit’s division by 1% per skill level.
+
+Command Dragon
+Buff all Dragon-type units in this unit’s division by 1% per skill level.
+
+Command Beast
+Buff all Beast-type units in this unit’s division by 1% per skill level.
+
+Command Aqua
+Buff all Aquatic units in this unit’s division by 1% per skill level.
+
+Command Flying
+Buff all Flying-type units in this unit’s division by 1% per skill level.
+
+Command Ice
+Buff all Ice-type units in this unit’s division by 1% per skill level.
+
+Command Fire
+Buff all Fire-type units in this unit’s division by 1% per skill level.
+
+Command Lightning
+Buff all Lightning-type units in this unit’s division by 1% per skill level.
+
+Command Nature
+Buff all Nature-type units in this unit’s division by 1% per skill level.
+
+Command Poison
+Buff all Poison-type units in this unit’s division by 1% per skill level.
+
+Command Undead
+Buff all Undead units in this unit’s division by 1% per skill level.
+
+Command Wraith
+Buff all Wraith units in this unit’s division by 1% per skill level.
+
+Command Knight
+Buff all Knight-type units in this unit’s division by 1% per skill level.
+
+Command Night
+Buff all Night-type units in this unit’s division by 1% per skill level.
+
+Command Supreme
+Buff all Supreme-type units in this unit’s division by 1% per skill level.
+
+Command Division
+Buffs all allies in this unit’s division aside from oneself. Requires 4 or more units.
+
+Command Attack
+Buffs this division’s Attack by 1% per skill level. Requires 4 or more units.
+
+Command Defense
+Buffs this division’s Defense by 1% per skill level. Requires 4 or more units.
+
+Command Speed
+Buffs this division’s Speed by 1% per skill level. Requires 4 or more units.
+
+Command Wisdom
+Buffs this division’s Wisdom by 1% per skill level. Requires 4 or more units.
+Offensive
+Flank Attack
+Reduces the enemy’s Force and evade chance and makes it possible to hit backline foes.
+
+Range Attack
+Nullifies enemy counterattacks. During the day, you can also hit backline foes.
+
+Added Attack
+Attack one additional time for each point in this skill.
+
+Pierce Attack
+Attack enemies in the frontline and backline at once.
+
+Wide Attack
+Attack all enemies in the same column as the target.
+
+Cross Attack
+Attack all enemies in the same column or row as the target.
+
+All Attack
+Attack all enemy divisions.
+
+Group Attack
+Attacks following divisions equal to this skill’s level.
+
+Dimension Slash
+Gain Range Attack, Helmet Split, and Parry. Ignores foe’s Dragon Scales and Parry.
+
+Wall Breaker
+Decrease the enemy’s terrain defense bonus.
+
+Critical Boost
+This skill’s value is added to your critical hit rate.
+
+Lethal Critical
+Increases damage from critical hits.
+
+Helmet Split
+Ignore a percentage of the enemy’s defense equal to this skill’s value. (Max80)
+
+Self-Destruct
+Damage the enemy by the amount of HP remaining before defeat.
+
+Mental Attack
+Reduces opponent’s loyalty and absorbs gauge equal to this skill’s value.
+
+Max-Power Attack
+Increases damage when attacking, but also increases counterattack damage received.
+
+Counter Amp
+Counterattack damage is multiplied by this skill’s value.
+
+Slayer Defense
+Ignore type-slaying effects. (Max100)
+Defensive
+Flank Null
+Prevents Flank Attacks from the enemy.
+
+Range Null
+Prevents Ranged Attacks from the enemy.
+
+Pierce Null
+Prevents Pierce Attacks from the enemy.
+
+Wide Null
+Prevents Wide Attacks from the enemy.
+
+Cross Null
+Prevent Cross/Pierce/Wide Attacks from the enemy.
+
+All Null
+Prevents All Attack from the enemy.
+
+Surround Null
+Prevent Cross/Pierce/Wide Attacks & All Attack from the enemy.
+
+Vanguard’s Honor
+Protects the allied division behind this unit’s division from close-range attacks.
+
+Parry
+This skill’s value is this unit’s % chance of blocking all but critical attacks.
+
+Evade
+This skill’s value is this unit’s % chance of dodging ranged attacks.
+
+Defense Only
+Unable to attack, but damage taken is reduced by 50%. (End of turn effects still trigger)
+
+Forward Guard
+Block attacks for the ally ahead of this unit in the formation. No effect if the unit is a Wraith.
+
+Target Miss
+Redirects attacks targeting this unit to the ally behind this unit in the formation.
+
+Hardy Physique
+Reduces both damage taken and HP recovered. (Max90)
+
+Godly Physique
+Reduces both damage taken and HP recovered. Also reduces self-destruct effects. (Max98)
+
+Tiny Physique
+Increases damage taken but gives dodge percentage equal to the skill. (Max80)
+
+Dragon Scales
+Ignore all damage below a certain amount from non-ranged attacks.
+
+Deadly Resist
+Reduces the opponent’s critical rate by the level of this skill.
+
+Fatal Resist
+Reduces opponent’s Lethal Critical rate by the level of this skill.
+
+S-Destruct Wall
+Reduces self-destruct damage by 1% per level of this skill.
+
+Self-D Barrier
+Reduces self-destruct damage by 1% per level of this skill.
+
+Counter Resist
+Reduces counterattack damage when attacking by 1% per level of this skill. (Max90)
+
+Wall Builder
+Increase your army’s terrain defense bonus.
+
+Barrier
+Creates a barrier at the beginning of the battle of (Level + 50) * skill value.
+Support
+Fool’s Lie
+Deletes a number equal to this skill’s level of enemy skills, in list order.
+
+Troop Carrier
+Makes your division immune to negative effects from the terrain.
+
+Terrain Null
+Nullify terrain effects and Fool’s Lie.
+
+Recovery
+Resurrect once per battle. (Max100)
+
+Amplification
+Increases continuous damage and healing of this unit’s division by 1% per skill level.
+
+Revenge Fang
+Increases status parameters by 1% per skill level for every ally defeated.
+
+Wild Fang
+Increases status parameters by 1% per skill level for every enemy defeated.
+
+Action Boost
+Increase turns for all division by the value of this skill.
+
+Action Block
+Reduce turns for all division by the value of this skill.
+
+Ambush Tactics
+Shift enemy order by Ambush Value÷10.
+
+Ambush Alert
+Reduces order shuffling from enemy ambushes.
+
+Sun Worship
+Become stronger during the day and weaker at night.
+
+Nocturnal
+Become stronger at night and weaker during the day.
+
+Night-Attuned
+Blocks negative effects from night battles. Nullifies negative effect of Sun Worship.
+
+Day-Attuned
+Blocks negative effects from day battles. Nullifies negative effect of Nocturnal.
+
+Elite
+EXP Gain +100%
+
+Slacker
+EXP Gain -50%
+
+Treasure Hunt
+Improves item drops.
+
+Bounty Hunter
+When destroying an enemy, receive a specific type of ore.
+
+Recover Resources
+Decreases unit upkeep costs for this division by 1% per skill level.
+Tactical and Force
+Raise Morale
+Increases Force of this unit’s division at the beginning of the battle by this skill’s value.
+
+Strat Hinder
+Increases the Force cost of the front enemy’s tactical skills.
+
+Strat Support
+Reduces the Force cost of tactical skills.
+
+Strat Wall
+Tactical skill damage to this unit is reduced.
+
+Strat Barrier
+Tactical skill damage to your division is reduced.
+Slay
+Slay Man
+Heavy damage to Male enemies.
+
+Slay Woman
+Heavy damage to Female enemies.
+
+Slay Human
+Heavy damage to Human enemies.
+
+Slay Demon
+Heavy damage to Demon enemies.
+
+Slay Divine
+Heavy damage to Divine-type enemies.
+
+Slay Insect
+Heavy damage to Insect-type enemies.
+
+Slay Mechanical
+Heavy damage to Mechanical enemies.
+
+Slay Dragon
+Heavy damage to Dragon-type enemies.
+
+Slay Beast
+Heavy damage to Beast-type enemies.
+
+Slay Aqua
+Heavy damage to Aquatic enemies.
+
+Slay Flying
+Heavy damage to Flying-type enemies.
+
+Slay Ice
+Heavy damage to Ice-type enemies.
+
+Slay Fire
+Heavy damage to Ice-type enemies.
+
+Slay Lightning
+Heavy damage to Lightning-type enemies.
+
+Slay Nature
+Heavy damage to Nature-type enemies.
+
+Slay Poison
+Heavy damage to Poison-type enemies.
+
+Slay Undead
+Heavy damage to Undead enemies.
+
+Slay Wraith
+Heavy damage to Wraith enemies.
+
+Slay Knight
+Heavy damage to Knight-type enemies.
+
+Slay Night
+Heavy damage to Night-type enemies.
+
+Slay Supreme
+Heavy damage to Supreme-type enemies.
+
+Slay All
+Heavy damage to Every type of enemy.
+Sap
+Sap Man
+Weaken Male enemies.
+
+Sap Woman
+Weaken Female enemies.
+
+Sap Human
+Weaken Human enemies.
+
+Sap Demon
+Weaken Demon enemies.
+
+Sap Divine
+Weaken Divine-type enemies.
+
+Sap Insect
+Weaken Insect-type enemies.
+
+Sap Mechanical
+Weaken Mechanical enemies.
+
+Sap Dragon
+Weaken Dragon-type enemies.
+
+Sap Beast
+Weaken Beast-type enemies.
+
+Sap Aqua
+Weaken Aquatic enemies.
+
+Sap Flying
+Weaken Flying-type enemies.
+
+Sap Ice
+Weaken Ice-type enemies.
+
+Sap Fire
+Weaken Fire-type enemies.
+
+Sap Lightning
+Weaken Lightning-type enemies.
+
+Sap Nature
+Weaken Nature-type enemies.
+
+Sap Poison
+Weaken Poison-type enemies.
+
+Sap Undead
+Weaken Undead enemies.
+
+Sap Wraith
+Weaken Wraith enemies.
+
+Sap Knight
+Weaken Knight-type enemies.
+
+Sap Night
+Weaken Night-type enemies.
+
+Sap Supreme
+Weaken Supreme-type enemies.
+
+Sap Squad
+Weaken every type of enemy.
+
+Sap Attack
+Decrease front enemy’s Attack.
+
+Sap Defense
+Decrease front enemy’s Defense.
+
+Sap Speed
+Decrease front enemy’s Speed.
+
+Sap Wisdom
+Decrease front enemy’s Wisdom.

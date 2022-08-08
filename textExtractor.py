@@ -9,16 +9,10 @@ from time import time
 from time import sleep
 
 from utils.windowcapture import WindowCapture
-from utils.vision import Vision
-from utils import autogui
+from image_capture import ImageCapture
 
 from pynput import keyboard
-import datetime
 
-import pyautogui
-from towers import tower
-
-from PIL import Image
 from pytesseract import pytesseract
 import win32api
 # Change the working directory to the folder this script is in.
@@ -56,7 +50,7 @@ state_left = win32api.GetKeyState(0x01)
 while(looping):
     # print('looping')
     print(win32api.GetCursorPos())
-    sleep(0.5)
+    sleep(0.2)
     a = win32api.GetKeyState(0x01)
     if a != state_left:  # Button state changed
         state_left = a
@@ -96,13 +90,14 @@ while(looping):
     print('x1: {} y1: {} x2: {} y2: {}'.format(x1, y1, x2, y2))
     screenshot = screenshot1[y1:y2, x1:x2]
     cv.imshow('image', screenshot)
-    cv.waitKey(0)
+    while cv.getWindowProperty('image', cv.WND_PROP_VISIBLE) >= 1 and looping:
+            cv.waitKey(100)
     #Open image with PIL
     # img = Image.open(path_to_image)
 
     #Extract text from image
     text = pytesseract.image_to_string(screenshot)
-    # print(text)
+    print(text)
     # debug the loop rate
     # print('FPS {}'.format(1 / (time() - loop_time)))
     loop_time = time()
