@@ -25,5 +25,6 @@ class ImageCapture:
 
 
     if __name__ == '__main__':
-        collect_frame()
+        cv2.imshow('gamecap.jpg', collect_screen())
+        cv2.waitKey(0)
         print('done')
