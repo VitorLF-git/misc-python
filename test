@@ -1,0 +1,114 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { FormsModule, ReactiveFormsModule, FormControl } from '@angular/forms';
+import { FilterInputComponent } from './filter-input.component';
+
+describe('FilterInputComponent', () => {
+  let component: FilterInputComponent;
+  let fixture: ComponentFixture<FilterInputComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [FilterInputComponent],
+      imports: [FormsModule, ReactiveFormsModule]
+    }).compileComponents();
+  });
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(FilterInputComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create the component', () => {
+    expect(component).toBeTruthy();
+  });
+
+  it('should set initial field value when control has a value and isEmail is true', () => {
+    component.control = new FormControl('test@example.com');
+    component.isEmail = true;
+    component.ngOnInit();
+    expect(component.fieldValue).toBe('test@example.com');
+  });
+
+  it('should set initial field value when control has a value and isEmail is false', () => {
+    component.control = new FormControl('Test Value');
+    component.isEmail = false;
+    component.ngOnInit();
+    expect(component.fieldValue).toBe('Test Value');
+  });
+
+  it('should set field value and isSuccess when control value changes and isEmail is true', () => {
+    component.control = new FormControl('test@example.com');
+    component.isEmail = true;
+    component.ngOnChanges();
+    expect(component.fieldValue).toBe('test@example.com');
+    expect(component.isSuccess).toBe(true);
+  });
+
+  it('should set field value and isSuccess when control value changes and isEmail is false', () => {
+    component.control = new FormControl('Test Value');
+    component.isEmail = false;
+    component.ngOnChanges();
+    expect(component.fieldValue).toBe('Test Value');
+    expect(component.isSuccess).toBe(true);
+  });
+
+  it('should update fieldValue and call filterSuggestionList when writing is called', () => {
+    spyOn(component, 'filterSuggestionList');
+    component.fieldValue = 'Test';
+    component.writing();
+    expect(component.isSuccess).toBe(false);
+    expect(component.control.value).toBe('Test');
+    expect(component.filterSuggestionList).toHaveBeenCalled();
+    expect(component.openList).toBe(true);
+  });
+
+  it('should set isSuccess, emit inputEmitter, update control value, and update fieldValue when selectItem is called and isEmail is false', () => {
+    spyOn(component.inputEmitter, 'emit');
+    component.isEmail = false;
+    component.selectItem('Item Value');
+    expect(component.isSuccess).toBe(true);
+    expect(component.inputEmitter.emit).toHaveBeenCalledWith('Item Value');
+    expect(component.control.value).toBe('Item Value');
+    expect(component.fieldValue).toBe('Item Value');
+    expect(component.openList).toBe(false);
+  });
+
+  it('should set isSuccess, update control value, and update fieldValue when selectItem is called and isEmail is true', () => {
+    component.isEmail = true;
+    component.sugestionBy = '@';
+    component.fieldValue = 'test';
+    component.selectItem('example.com');
+    expect(component.isSuccess).toBe(true);
+    expect(component.control.value).toBe('test@example.com');
+    expect(component.fieldValue).toBe('test@example.com');
+    expect(component.openList).toBe(false);
+  });
+
+  it('should update fieldValue and set openList to false when blur is called', () => {
+    component.fieldValue = 'Test';
+    component.blur();
+    expect(component.fieldValue).toBe('Test');
+    setTimeout(() => {
+      expect(component.openList).toBe(false);
+    }, 500);
+  });
+
+  it('should filter suggestion list and set isEmail when filterSuggestionList is called and control value does not contain "@"', () => {
+    component.control = new FormControl('Test Value');
+    component.secondaryListSugesstions = [
+      { description: 'Test Value' },
+      { description: 'Another Value' },
+    ];
+    component.fieldValue = 'Test';
+    component.filterSuggestionList();
+    expect(component.isEmail).toBe(false);
+    expect(component.listSugestions).toEqual([{ description: 'Test Value' }]);
+  });
+
+  it('should set isEmail when filterSuggestionList is called and control value contains "@"', () => {
+    component.control = new FormControl('test@example.com');
+    component.filterSuggestionList();
+    expect(component.isEmail).toBe(true);
+  });
+});
